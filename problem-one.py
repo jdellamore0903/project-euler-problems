@@ -5,5 +5,5 @@ def multiples_of_three_five(num):
       answer += i
   return answer
 
-print multiples_of_three_five(10) #returns 23
-print multiples_of_three_five(1000) #returns 233168
+print(multiples_of_three_five(10)) #returns 23
+print(multiples_of_three_five(1000)) #returns 233168

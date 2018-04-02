@@ -1,4 +1,4 @@
-def even_fibonacci(num):
+def even_fibonacci(limit):
   a = 0
   b = 1
   answer = 0
@@ -6,8 +6,7 @@ def even_fibonacci(num):
     temp = a
     a = b
     b = temp + b
-    print b
-    if b < num:
+    if b < limit:
       if b % 2 == 0:
         answer += b
     else:
@@ -15,4 +14,5 @@ def even_fibonacci(num):
   return answer
 
 
-print even_fibonacci(4000000) #returns 4613732
+print(even_fibonacci(4000000)) #returns 4613732
+

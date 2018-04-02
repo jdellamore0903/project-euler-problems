@@ -11,4 +11,4 @@ def largest_prime_factors(num):
     prime_factors.append(num)
   return prime_factors
 
-print largest_prime_factors(600851475143) #returns largest prime factor which is 6857
+print(max(largest_prime_factors(600851475143))) #returns largest prime factor which is 6857
